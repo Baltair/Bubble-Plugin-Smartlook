@@ -1,0 +1,58 @@
+{
+    "category": "analytics",
+    "display": "Smartlook: Set Recording Privacy",
+    "fields": {
+        "AAa": {
+            "caption": "Record Forms",
+            "default_val": false,
+            "doc": "Enable recordings of input value and interactions.",
+            "editor": "DynamicValue",
+            "name": "record_forms",
+            "rank": 1,
+            "value": "boolean"
+        },
+        "AAb": {
+            "caption": "Record IPs",
+            "default_val": false,
+            "doc": "Enable the recording of the IP address.",
+            "editor": "DynamicValue",
+            "name": "record_ips",
+            "rank": 2,
+            "value": "boolean"
+        },
+        "AAc": {
+            "caption": "Record Emails",
+            "default_val": false,
+            "doc": "Enable the recording of the email address within the page. Does not impact value inside an input form.",
+            "editor": "DynamicValue",
+            "name": "record_emails",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "AAd": {
+            "caption": "Record Numbers",
+            "default_val": false,
+            "doc": "Enable the recording of the numbers within the page. Does not impact value inside an input form.",
+            "editor": "DynamicValue",
+            "name": "record_numbers",
+            "rank": 4,
+            "value": "boolean"
+        },
+        "AAe": {
+            "caption": "Remember that you will most likely need to get visitor consent before enabling the recording of sensitive data.",
+            "editor": "Label",
+            "name": "consent",
+            "rank": 0
+        },
+        "AAj": {
+            "caption": "Record Canvas",
+            "default_val": "None",
+            "doc": "Enable recording of all Canvas elements. The Higher quality require more bandwidth.",
+            "editor": "Dropdown",
+            "name": "record_canvas",
+            "options": "None,Low Quality,Medium Quality,High Quality",
+            "rank": 5
+        }
+    },
+    "type": "client_side"
+}

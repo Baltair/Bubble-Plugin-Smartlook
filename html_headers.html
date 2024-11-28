@@ -1,0 +1,26 @@
+<script type='text/javascript'>
+  window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='https://web-sdk.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', '_*_Project Key_*_', { region: 'eu' });
+    let z=localStorage.getItem('jlap-SL_Perm');
+    if(z){smartlook('record', JSON.parse(atob(z)));}
+    document.addEventListener("DOMContentLoaded", function(event) {
+        let z2=localStorage.getItem('jlap-SL_Canvas');
+        switch(z2) {
+            case "Low Quality":
+                document.body.dataset.sl = "canvas-lq";
+                break;
+
+            case "Medium Quality":
+                document.body.dataset.sl = "canvas-mq";
+                break;
+
+            case "High Quality":
+                document.body.dataset.sl = "canvas-hq";
+                break;
+		}
+    });
+</script>

@@ -1,0 +1,17 @@
+{
+    "categories": {
+        "0": "analytics",
+        "1": "technical",
+        "2": "small business",
+        "3": "video",
+        "4": "customer support"
+    },
+    "data_tracked": false,
+    "description": "Use Smartlook to get analytics and records session on website to improve your website.\n\nBy default, no sensitive data is recorded.\n\nSmartlook have other APIs functionalities , you can tell me if you wish me to add features to this plugin here : www.joapp.ca/request",
+    "image": "//s3.amazonaws.com/appforest_uf/f1661269780986x130770745641777490/smartlookicon.webp",
+    "license": "open_source",
+    "link": "https://www.smartlook.com/?_ak=ZfBTrg4pG",
+    "name": "Smartlook",
+    "plugin_instructions": "When the setup is complete, this plugin will work on all pages of the app. To setup this plugin, you must :\n1. Log in your Smartlook account (If you do not have one, register to a free or paid plan on www.smartlook.com)\n2. Go to Organization Settings and select/create the desired project\n3. Copy the Project Key\n4. Paste the Project Key within this API",
+    "sa_node_version": 18
+}

@@ -1,0 +1,15 @@
+{
+    "category": "analytics",
+    "display": "Smartlook: Trigger Navigation Event",
+    "fields": {
+        "AAX": {
+            "caption": "url",
+            "doc": "Value of the URL to be displayed in Smartlook",
+            "editor": "DynamicValue",
+            "name": "url",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}
